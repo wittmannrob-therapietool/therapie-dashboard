@@ -1,8 +1,0 @@
-{
-  "name": "Therapie Dashboard",
-  "short_name": "Therapie",
-  "start_url": "index.html",
-  "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff"
-}
