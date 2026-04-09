@@ -1,0 +1,13 @@
+ANLEITUNG
+
+1. ZIP entpacken
+2. Dateien auf GitHub hochladen
+3. GitHub Pages aktivieren
+4. Link in Safari öffnen
+5. Zum Home-Bildschirm hinzufügen
+
+Dateien:
+- index.html
+- app.js
+- manifest.json
+- sw.js
