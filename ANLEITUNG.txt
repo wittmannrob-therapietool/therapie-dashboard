@@ -1,0 +1,13 @@
+ANLEITUNG
+
+1. ZIP entpacken
+2. index.html öffnen
+
+Dateien:
+- index.html (Oberfläche)
+- app.js (Logik)
+
+Funktionen:
+- Werte speichern
+- Diagramm anzeigen
+- Export / Import möglich
