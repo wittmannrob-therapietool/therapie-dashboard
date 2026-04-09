@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Therapie Dashboard FINAL</title>
+<link rel="manifest" href="manifest.json">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body { font-family: Arial; margin:20px;}
+input { width:70px; margin:5px;}
+button { margin:5px;}
+canvas { border:1px solid #ccc; }
+#list {margin-top:10px;}
+</style>
+</head>
+<body>
+
+<h2>Therapieverlauf FINAL</h2>
+
+Tag <input id="tag" type="number">
+Leuko <input id="leuko" type="number">
+Hb <input id="hb" type="number">
+Thr <input id="thr" type="number">
+CRP <input id="crp" type="number">
+
+<button onclick="addData()">Speichern</button>
+<button onclick="draw()">Diagramm</button>
+
+<div id="list"></div>
+<div id="status"></div>
+
+<canvas id="c" width="900" height="450"></canvas>
+
+<script src="app.js"></script>
+</body>
+</html>
